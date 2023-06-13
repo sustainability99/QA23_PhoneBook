@@ -22,13 +22,13 @@ public class CreateAccountTests extends TestBase {
         // [placeholder='Email']
         driver.findElement(By.cssSelector("[placeholder='Email']")).click();
         driver.findElement(By.cssSelector("[placeholder='Email']")).clear();
-        driver.findElement(By.cssSelector("[placeholder='Email']")).sendKeys("kan@gmai.com");
+        driver.findElement(By.cssSelector("[placeholder='Email']")).sendKeys("kan23@online.com");
 
         //enter password field
         // [placeholder='Password']
         driver.findElement(By.cssSelector("[placeholder='Password']")).click();
         driver.findElement(By.cssSelector("[placeholder='Password']")).clear();
-        driver.findElement(By.cssSelector("[placeholder='Password']")).sendKeys("Kan123$-_$");
+        driver.findElement(By.cssSelector("[placeholder='Password']")).sendKeys("Kan12312345$");
 
         //click on Registration
         // by.name - registration
