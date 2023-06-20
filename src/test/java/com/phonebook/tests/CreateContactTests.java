@@ -22,7 +22,7 @@ public class CreateContactTests extends TestBase {
         app.clickOnAddLink();
         // int i = (int) (System.currentTimeMillis() / 1000)%3600;
         //fill in the add contact form
-        app.fillAddContactForm("Karl", "Adam", "1234567890", "adam@gm.com", "Koblenz", "goalkeeper");
+        app.fillAddContactForm("Kasimir", "Silver", "0987654321", "ka@online.com", "Konstanz", "tormentor");
         //click on the Save button
         app.clickOnSaveButton();
         //assert the contact is added

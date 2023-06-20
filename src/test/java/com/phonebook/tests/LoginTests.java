@@ -18,8 +18,8 @@ public class LoginTests extends TestBase{
     public void loginPositiveTest() {
         //enter email field
         app.fillLoginRegistrationForm(new User()
-                .setEmail("kan@gmai.com")
-                .setPassword("Kan123$-_$"));
+                .setEmail("ka@online.com")
+                .setPassword("Ka12345678$"));
         //click on Login button
         app.clickOnLoginButton();
         //assert user logged in(check Sign Out button displayed)
@@ -29,7 +29,7 @@ public class LoginTests extends TestBase{
     @Test
     public void loginNegativeWithoutPasswordTest() {
         //enter email field
-        app.fillLoginRegistrationForm(new User().setEmail("kan@gmai.com"));
+        app.fillLoginRegistrationForm(new User().setEmail("ka@online.com"));
         //click on Login button
         app.clickOnLoginButton();
         Assert.assertTrue(app.isAlertPresent());
