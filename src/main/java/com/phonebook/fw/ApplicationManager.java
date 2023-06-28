@@ -1,11 +1,8 @@
-package com.phonebook.tests;
+package com.phonebook.fw;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.safari.SafariDriver;
 
 import java.time.Duration;
 
@@ -40,6 +37,8 @@ public class ApplicationManager {
     }
 
     public void init() {
+        System.err.close(); // so werden einige rote Meldungen in der Console ausgeschaltet
+
         if (browser.equalsIgnoreCase("chrome")) {
             driver = new ChromeDriver();
         } else if (browser.equalsIgnoreCase("firefox")) {

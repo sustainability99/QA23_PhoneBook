@@ -1,0 +1,9 @@
+1590 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/valentindaines/Library/Caches/JetBrains/IdeaIC2023.1/temp-testng-customsuite.xml
+
+8557 [main] INFO  com.phonebook.tests.TestBase -- Start testloginPositiveTest
+10064 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+10065 [main] INFO  com.phonebook.tests.TestBase -- ========================================================================
+10072 [main] INFO  com.phonebook.tests.TestBase -- Start testloginNegativeWithoutPasswordTest
+21047 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21049 [main] INFO  com.phonebook.tests.TestBase -- ========================================================================

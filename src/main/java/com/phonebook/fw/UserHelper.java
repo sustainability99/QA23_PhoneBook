@@ -1,5 +1,6 @@
-package com.phonebook.tests;
+package com.phonebook.fw;
 
+import com.phonebook.model.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

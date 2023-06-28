@@ -1,0 +1,35 @@
+1361 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/valentindaines/Library/Caches/JetBrains/IdeaIC2023.1/temp-testng-customsuite.xml
+
+7173 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactFromCsvFilePositiveTestwith data:[Contact{name='Samuel', phone='1234567890'}]
+10635 [main] INFO  com.phonebook.tests.TestBase -- PASSED: addContactFromCsvFilePositiveTest
+10636 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+10636 [main] INFO  com.phonebook.tests.TestBase -- ========================================================================
+10638 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactFromCsvFilePositiveTestwith data:[Contact{name='Samuel', phone='12345678901'}]
+23289 [main] INFO  com.phonebook.tests.TestBase -- PASSED: addContactFromCsvFilePositiveTest
+23293 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+23294 [main] INFO  com.phonebook.tests.TestBase -- ========================================================================
+23297 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactFromCsvFilePositiveTestwith data:[Contact{name='Samuel', phone='12345678900987'}]
+36076 [main] INFO  com.phonebook.tests.TestBase -- PASSED: addContactFromCsvFilePositiveTest
+36077 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+36078 [main] INFO  com.phonebook.tests.TestBase -- ========================================================================
+36080 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactFromCsvFilePositiveTestwith data:[Contact{name='Samuel', phone='98765432112345'}]
+48920 [main] INFO  com.phonebook.tests.TestBase -- PASSED: addContactFromCsvFilePositiveTest
+48920 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+48921 [main] INFO  com.phonebook.tests.TestBase -- ========================================================================
+48993 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
