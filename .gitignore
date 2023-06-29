@@ -4,6 +4,12 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+/build/classes/
+/build/generated/
+/build/reports/
+/build/resources/
+/build/tmp/
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
@@ -44,4 +50,8 @@ bin/
 .idea
 settings.gradle
 gradlew
+gradlew/
 *.bat
+*.log
+out/
+*.png
