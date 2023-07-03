@@ -6,8 +6,8 @@
 /build/tmp/
 
 
-/gradle/wrapper/
-gradle/wrapper
+gradle/wrapper/
+
 
 gradle-app.setting
 
