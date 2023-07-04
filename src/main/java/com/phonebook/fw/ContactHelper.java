@@ -45,4 +45,34 @@ public class ContactHelper extends BaseHelper{
     public boolean isContactListEmpty() {
         return driver.findElements(By.cssSelector(".contact-item_card__2SOIM")).isEmpty();
     }
+
+    public void addContact() {
+        fillAddContactForm(new Contact()
+                .setName("Samuel")
+                .setLastname("Barmen")
+                .setPhone("1234567890")
+                .setEmail("ka@online.com")
+                .setAddress("Kassel")
+                .setDesc("tormentor"));
+        clickOnSaveButton();
+    }
+
+    public  void removeContact1(String text) {
+        List<WebElement> contacts = driver.findElements(By.cssSelector("h2"));
+        for (WebElement element: contacts) {
+            if (element.getText().contains(text)) {
+                element.click();
+                click(By.xpath("//button[.='Remove']"));
+            }
+        }
+    }
+
+    public int sizeOfContacts() {
+
+        if (isElementPresent(By.cssSelector(".contact-item_card__2SOIM"))) {
+            return driver.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();
+        }
+
+        return 0;
+    }
 }

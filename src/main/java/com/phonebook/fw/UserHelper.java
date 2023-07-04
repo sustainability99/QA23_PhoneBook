@@ -22,4 +22,11 @@ public class UserHelper extends BaseHelper{
     public void clickOnLoginButton() {
         click(By.name("login"));
     }
+
+    public void login() {
+        fillLoginRegistrationForm(new User()
+                .setEmail("ka@online.com")
+                .setPassword("Ka12345678$"));
+        clickOnLoginButton();
+    }
 }
